@@ -1,0 +1,50 @@
+Escape schulwart:
+Spawn:
+Spieler spawnt am eingang/ausgang
+Schulwart spawnt rndm bei 1 von 10 spots und wartet 5sec
+
+
+Schulwart:
+Speed: 1.2
+KEIN GEIST
+hört laut musik mit Headset und je näher er ist umso lauter ist er
+Wirft Schallplatten ab ca 2meter ( 20 hp Damage) /delay beim werfen 1sec
+kennt geheim eingänge/ausgänge wo er nur den schlüssel hat
+
+Spieler:
+Health: 100 hp
+Speed: 1.0
+kann maximal links redbull tragen und rechts immer taschenlampe
+--> links = 1 | rechts = 2
+item einsammeln -> f
+schuhe/schlappen -> werden instant angezogen wenn f gedrückt wird (hat man schon ein Schuhwerk an
+kann man keine neuen anziehen)
+sieht nur 3m weiter
+
+Key:
+spawnt in 1 von 7 rndm Points (irgendwo in map)
+
+
+Ziel:
+Spieler muss Key finden um raus zu kommen
+
+Loot boxen (rucksäcke):
+Redbull -> damit ist man 5sec so schnell wie schulwart
+Schuhe -> instant kill beim anziehen
+Schlapfer -> 10% weniger Damage
+helleres licht für Taschenlampe (+2m sicht)
+
+
+Jeder spawnpoint von kisten hat eine Wahrscheinlichkeit zum spawnen von 10% (jeder raum fast hat so einen spot)
+--> dieser spawnpoints sieht der usen durch leuchten oder vllt minimap
+
+
+Add-On:
+camera Effekt (wacklen) wenn der Gegner näher kommt
+
+
+
+MAP:
+probuilder unity tutorial
+
+Bild von Map:
