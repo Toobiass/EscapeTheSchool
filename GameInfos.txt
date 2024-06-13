@@ -48,3 +48,9 @@ MAP:
 probuilder unity tutorial
 
 Bild von Map:
+
+
+TODO:
+Spieler nur durch eingang durch
++ Gegner läuft spieler nach
++ key finden und zum spawn rennen gewinnen
