@@ -2,18 +2,15 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5.0f;
+    public float speed;
 
     void Update()
     {
-        // Bewegung basierend auf den Eingaben
-        float moveX = Input.GetAxis("Horizontal"); // A, D
-        float moveZ = Input.GetAxis("Vertical");   // W, S
+        float moveX = Input.GetAxis("Horizontal");
+        float moveZ = Input.GetAxis("Vertical");
 
-        // Berechne die Bewegungsrichtung
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
-
-        // Bewege den Spieler
+        
         transform.Translate(move * speed * Time.deltaTime, Space.World);
     }
 }
